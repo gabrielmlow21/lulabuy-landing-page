@@ -1,17 +1,17 @@
 .heading-primary {
     font-size: 6rem;
-    font-weight: 900;
+    font-weight: $weight-black;
 }
 
 .paragraph {
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: $weight-medium;
 }
 
 .btn {
     background-color: $color-maroon;
     color: $color-white;
-    font-weight: 700;
+    font-weight: $weight-bold;
     font-size: 2.5rem;
     width: 16rem;
     padding: 1.5rem 0;
