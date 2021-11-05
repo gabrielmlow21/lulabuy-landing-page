@@ -1,0 +1,33 @@
+.tagline {
+    width: 100%;
+    background-image: url("../img/tagline/bg-wave.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "heading image"
+            "description image";
+        column-gap: 15rem;
+        margin: 7rem 25rem 15rem 25rem;
+    }
+
+    &__heading {
+        grid-area: heading;
+        align-self: center;
+        color: $color-white;
+    }
+
+    &__description {
+        grid-area: description;
+        color: $color-brown;
+    }
+
+    &__image {
+        grid-area: image;
+        width: 26rem;
+    }
+}
