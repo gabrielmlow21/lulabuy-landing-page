@@ -32,12 +32,6 @@ body {
     font-family: $font-primary;
 }
 
-hr {
-    color: $color-brown;
-    background: $color-brown;
-    width: 5px;
-}
-
 .container {
     display: flex;
     flex-direction: column;
