@@ -9,16 +9,16 @@
 }
 
 .paragraph {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: $weight-regular;
 }
 
 .btn {
     background-color: $color-maroon;
     color: $color-white;
     font-weight: $weight-bold;
-    font-size: 2.5rem;
-    width: 16rem;
-    padding: 1.5rem 0;
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
     border-radius: 23px;
     outline: none;
     cursor: pointer;
