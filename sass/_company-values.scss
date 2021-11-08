@@ -24,7 +24,10 @@
         margin-bottom: 0rem;
     }
 
-    &__horizontal-rule {
-        height: 25rem;
+    &__hr {
+        color: $color-brown;
+        background: $color-brown;
+        width: 5px;
+        height: 30rem;
     }
 }
