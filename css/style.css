@@ -12,9 +12,19 @@ html {
 body {
   font-family: "Roboto", sans-serif; }
 
+hr {
+  color: #68411A;
+  background: #68411A;
+  width: 5px; }
+
 .container {
   display: flex;
   flex-direction: column; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10rem; }
 
 .heading-primary {
   font-size: 6rem;
@@ -70,10 +80,9 @@ body {
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: "heading-primary heading-primary" "image heading-tertiary" "image paragraph" ". cta";
-    margin-top: 8rem;
     width: 80vw;
     row-gap: 4rem;
-    column-gap: 4rem; }
+    column-gap: 6rem; }
   .about-us__heading-primary {
     grid-area: heading-primary;
     color: #68411A;
@@ -91,3 +100,27 @@ body {
   .about-us__cta {
     grid-area: cta;
     justify-self: left; }
+
+.company-values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8rem;
+  background-color: #FBB271;
+  border-radius: 38px;
+  padding: 3.5rem 5rem;
+  margin: 0rem 8rem; }
+  .company-values__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem; }
+  .company-values__heading {
+    color: #68411A; }
+  .company-values__paragraph {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0rem; }
+  .company-values__horizontal-rule {
+    height: 25rem; }
