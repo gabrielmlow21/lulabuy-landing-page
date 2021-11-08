@@ -1,0 +1,47 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+            "heading-primary heading-primary"
+            "image heading-tertiary"
+            "image paragraph"
+            ". cta";
+        margin-top: 8rem;
+        width: 80vw;
+        row-gap: 4rem;
+        column-gap: 4rem;
+    }
+
+    &__heading {
+        &-primary {
+            grid-area: heading-primary;
+            color: $color-brown;
+            justify-self: center;
+            margin-bottom: 2rem;
+        }
+        &-tertiary {
+            grid-area: heading-tertiary;
+            color: $color-brown;
+        }
+    }
+
+    &__image {
+        grid-area: image;
+        height: 25rem;
+        justify-self: end;
+    }
+
+    &__paragraph {
+        grid-area: paragraph;
+    }
+
+    &__cta {
+        grid-area: cta;
+        justify-self: left;
+    }
+}

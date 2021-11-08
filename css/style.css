@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.container {
+  display: flex;
+  flex-direction: column; }
+
+.heading-primary {
+  font-size: 6rem;
+  font-weight: 900; }
+
+.heading-tertiary {
+  font-size: 3rem;
+  font-weight: 900; }
+
+.paragraph {
+  font-size: 2rem;
+  font-weight: 400; }
+
+.btn {
+  background-color: #A43222;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 23px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+
+.tagline {
+  width: 100%;
+  background-image: url("../img/tagline/bg-wave.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  .tagline__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "heading image" "description image";
+    column-gap: 15rem;
+    margin: 7rem 25rem 15rem 25rem; }
+  .tagline__heading {
+    grid-area: heading;
+    align-self: center;
+    color: #FFFFFF; }
+  .tagline__description {
+    grid-area: description;
+    color: #68411A; }
+  .tagline__image {
+    grid-area: image;
+    width: 26rem; }
+
+.about-us {
+  display: flex;
+  justify-content: center; }
+  .about-us__container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "heading-primary heading-primary" "image heading-tertiary" "image paragraph" ". cta";
+    margin-top: 8rem;
+    width: 80vw;
+    row-gap: 4rem;
+    column-gap: 4rem; }
+  .about-us__heading-primary {
+    grid-area: heading-primary;
+    color: #68411A;
+    justify-self: center;
+    margin-bottom: 2rem; }
+  .about-us__heading-tertiary {
+    grid-area: heading-tertiary;
+    color: #68411A; }
+  .about-us__image {
+    grid-area: image;
+    height: 25rem;
+    justify-self: end; }
+  .about-us__paragraph {
+    grid-area: paragraph; }
+  .about-us__cta {
+    grid-area: cta;
+    justify-self: left; }
