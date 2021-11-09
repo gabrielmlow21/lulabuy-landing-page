@@ -1,0 +1,98 @@
+.career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heading {
+        &-career {
+            color: $color-brown;
+            margin-bottom: 3rem;
+        }
+
+        &-join-our-business {
+            color: $color-white;
+            background-color: $color-orange;
+            width: 100%;
+            text-align: center;
+            margin: 0rem;
+            padding: 4rem 0rem;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            box-shadow: $shadow-bottom;
+        }
+    }
+
+    &__hr {
+        color: $color-orange;
+        background: $color-orange;
+        border: none;
+        height: 10px;
+        width: 100%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5rem;
+
+    &__heading {
+        color: $color-brown;
+        margin-top: 10rem;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        ". . item-1 item-1 . ."
+        "item-2 item-2 squirrel squirrel item-3 item-3"
+        ". item-4 item-4 item-5 item-5 .";
+        align-items: center;
+        justify-items: center;
+        width: 50vw;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+        margin: 0rem 3rem;
+        // margin: 2rem 5.5rem;
+
+        &-1 {
+            grid-area: item-1;
+        }
+        &-2 {
+            grid-area: item-2;
+        }
+        &-3 {
+            grid-area: item-3;
+        }
+        &-4 {
+            grid-area: item-4;
+        }
+        &-5 {
+            grid-area: item-5;
+        }
+    }
+
+    &__icon {
+        height: 6rem;
+    }
+
+    &__description {
+        text-align: center;
+        color: $color-brown;
+    }
+
+    &__squirrel {
+        grid-area: squirrel;
+        height: 15rem;
+    }
+}
