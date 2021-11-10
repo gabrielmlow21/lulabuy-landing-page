@@ -24,6 +24,7 @@
 }
 
 .btn {
+    border: none;
     background-color: $color-maroon;
     color: $color-white;
     font-weight: $weight-bold;
@@ -33,4 +34,24 @@
     outline: none;
     cursor: pointer;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    background-color: #FBE6CB;
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    margin-top: 8px;
+    border-radius: 30px;
+    font-weight: $weight-medium;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.rule {
+    color: $color-brown;
+    background: $color-brown;
+    width: 3px;
 }
