@@ -209,6 +209,7 @@ body {
   .contact-us__heading {
     color: #68411A; }
   .contact-us__content {
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center; }
@@ -224,3 +225,16 @@ body {
 
 .address__paragraph {
   margin-top: 15px; }
+
+.social-media {
+  margin-top: 3rem; }
+  .social-media__heading {
+    color: #68411A; }
+  .social-media__icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px; }
+    .social-media__icon img {
+      height: 4rem; }
