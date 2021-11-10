@@ -33,6 +33,10 @@ body {
   font-size: 3rem;
   font-weight: 900; }
 
+.heading-quaternary {
+  font-size: 2.5rem;
+  font-weight: 700; }
+
 .paragraph {
   font-size: 2rem;
   font-weight: 400; }
@@ -191,3 +195,29 @@ body {
   .why-us__squirrel {
     grid-area: squirrel;
     height: 15rem; }
+
+.contact-us {
+  width: 100%;
+  background-image: url("../img/contact-us/bg-wave.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 10rem; }
+  .contact-us__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contact-us__heading {
+    color: #68411A; }
+  .contact-us__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .contact-us__content-left {
+      flex-basis: 20%; }
+    .contact-us__content-rule {
+      margin: 1rem 5rem; }
+    .contact-us__content-right {
+      flex-basis: 50%; }
+
+.address__heading {
+  color: #68411A; }
