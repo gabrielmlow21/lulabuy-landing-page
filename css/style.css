@@ -221,3 +221,6 @@ body {
 
 .address__heading {
   color: #68411A; }
+
+.address__paragraph {
+  margin-top: 15px; }
