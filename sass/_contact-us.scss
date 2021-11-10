@@ -3,7 +3,8 @@
     background-image: url("../img/contact-us/bg-wave.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 10rem;
+    padding-top: 14rem;
+    padding-bottom: 5rem;
 
     &__container {
         display: flex;
@@ -28,11 +29,11 @@
         }
 
         &-rule {
-            margin: 1rem 5rem;
+            margin: 0rem 8rem;
         }
 
         &-right {
-            flex-basis: 50%;
+            flex-basis: 35%;
         }
     }
 }
@@ -67,5 +68,36 @@
 }
 
 .form {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 3rem;
+
+    &__label {
+        color: $color-brown;
+        font-size: 2rem;
+        font-weight: $weight-bold;
+        margin-left: 8px;
+    }
+
+    &__input {
+        padding: 1rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__comment {
+        grid-column: 1 / span 2;
+    }
+
+    &__textarea {
+        padding: 2rem;
+        resize: none;
+    }
+
+    &__submit {
+        width: 15rem;
+    }
 }

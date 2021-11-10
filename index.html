@@ -38,13 +38,13 @@
                 <img class="company-values__logo" src="./img/company-values/logo-purpose.svg" alt="icon of a bullseye">
                 <p class="company-values__paragraph paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae laborum nulla dignissimos deserunt officia error sed, et eveniet, hic molestiae aliquid ipsa quibusdam neque voluptatum natus dolorem ducimus animi eaque?</p>
             </div>
-            <hr class="company-values__hr">
+            <hr class="company-values__rule rule">
             <div class="company-values__item">
                 <h3 class="company-values__heading heading-tertiary">Our Positioning</h3>
                 <img class="company-values__logo" src="./img/company-values/logo-positioning.svg" alt="icon of a location pin">
                 <p class="company-values__paragraph paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae laborum nulla dignissimos deserunt officia error sed, et eveniet, hic molestiae aliquid ipsa quibusdam neque voluptatum natus dolorem ducimus animi eaque?</p>
             </div>
-            <hr class="company-values__hr">
+            <hr class="company-values__rule rule">
             <div class="company-values__item">
                 <h3 class="company-values__heading heading-tertiary">Our Personality</h3>
                 <img class="company-values__logo" src="./img/company-values/logo-personality.svg" alt="icon of a magnifying glass">
@@ -110,29 +110,29 @@
                             </div>
                         </div>
                     </div>
-                    <hr class="contact-us__content-rule">
+                    <hr class="contact-us__content-rule rule">
                     <form class="contact-us__content-right form" action="">
-                        <div>
-                            <label class="heading-quaternary" for="fname">First Name</label>
-                            <input type="text" id="fname" name="fname">
+                        <div class="form-fname">
+                            <label class="form__label" for="fname">First Name</label><br>
+                            <input class="form__input input" type="text" id="fname" name="fname">
+                        </div>
+                        <div class="form-fname">
+                            <label class="form__label" for="fname">Last Name</label><br>
+                            <input class="form__input input" type="text" id="lname" name="lname">
                         </div>
                         <div>
-                            <label class="heading-quaternary" for="fname">Last Name</label>
-                            <input type="text" id="lname" name="lname">
+                            <label class="form__label" for="email">E-mail</label><br>
+                            <input class="form__input input" type="email" id="email" name="email">
                         </div>
                         <div>
-                            <label class="heading-quaternary" for="email">E-mail</label>
-                            <input type="email" id="email" name="email">
+                            <label class="form__label" for="phone">Phone</label><br>
+                            <input class="form__input input" type="tel" id="phone" name="phone">
                         </div>
-                        <div>
-                            <label class="heading-quaternary" for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone">
+                        <div class="form__comment">
+                            <label class="form__label" for="comment">Comment</label><br>
+                            <textarea class="input form__textarea" name="comment" id="comment" cols="30" rows="10"></textarea>
                         </div>
-                        <div>
-                            <label class="heading-quaternary" for="comment">Comment</label>
-                            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                        </div>
-                        <input class="btn" type="submit" value="Submit">
+                        <input class="form__submit btn" type="submit" value="Submit">
                     </form>
                 </div>
             </div>
