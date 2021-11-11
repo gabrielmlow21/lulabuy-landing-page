@@ -129,7 +129,7 @@ li {
     grid-template-areas: "heading-primary heading-primary" "image heading-tertiary" "image paragraph" ". cta";
     width: 80vw;
     row-gap: 4rem;
-    column-gap: 6rem; }
+    column-gap: 10rem; }
   .about-us__heading-primary {
     grid-area: heading-primary;
     color: #68411A;
