@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    border-bottom: 7px $color-brown solid;
+
+    &__logo {
+        width: 20rem;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10rem;
+    list-style: none;
+}

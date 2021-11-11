@@ -70,10 +70,31 @@ a {
   .input:focus {
     outline: none; }
 
+li {
+  font-size: 1.8rem;
+  color: #68411A;
+  font-weight: 700; }
+
 .rule {
   color: #68411A;
   background: #68411A;
   width: 3px; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+  border-bottom: 7px #68411A solid; }
+  .header__logo {
+    width: 20rem; }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10rem;
+  list-style: none; }
 
 .tagline {
   width: 100%;
