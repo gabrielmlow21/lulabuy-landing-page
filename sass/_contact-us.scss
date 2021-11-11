@@ -81,7 +81,9 @@
     }
 
     &__input {
-        padding: 1rem;
+        padding: 1rem 1.5rem;
+        color: $color-brown;
+        font-size: 1.5rem;
 
         &:focus {
             outline: none;
@@ -95,6 +97,8 @@
     &__textarea {
         padding: 2rem;
         resize: none;
+        color: $color-brown;
+        font-size: 1.5rem;
     }
 
     &__submit {

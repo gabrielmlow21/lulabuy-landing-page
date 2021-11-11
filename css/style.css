@@ -271,14 +271,18 @@ a {
     font-weight: 700;
     margin-left: 8px; }
   .form__input {
-    padding: 1rem; }
+    padding: 1rem 1.5rem;
+    color: #68411A;
+    font-size: 1.5rem; }
     .form__input:focus {
       outline: none; }
   .form__comment {
     grid-column: 1 / span 2; }
   .form__textarea {
     padding: 2rem;
-    resize: none; }
+    resize: none;
+    color: #68411A;
+    font-size: 1.5rem; }
   .form__submit {
     width: 15rem; }
 
