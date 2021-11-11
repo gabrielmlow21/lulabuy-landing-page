@@ -12,6 +12,12 @@ html {
 body {
   font-family: "Roboto", sans-serif; }
 
+a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */ }
+
 .container {
   display: flex;
   flex-direction: column; }
@@ -275,3 +281,17 @@ body {
     resize: none; }
   .form__submit {
     width: 15rem; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  color: #818181; }
+  .footer__content-right {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem; }
+  .footer__rule {
+    color: #818181;
+    background: #818181; }

@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 2rem;
+    color: $color-grey-dark;
+
+    &__content-right {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2rem;
+    }
+
+    &__rule {
+        color: $color-grey-dark;
+        background: $color-grey-dark;
+    }
+}

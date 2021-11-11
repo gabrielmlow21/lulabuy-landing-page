@@ -5,6 +5,7 @@ $color-orange: #FBB271;
 $color-brown: #68411A;
 $color-maroon: #A43222;
 $color-grey: #F2F2F2;
+$color-grey-dark: #818181;
 
 $font-primary: 'Roboto', sans-serif;
 
@@ -31,6 +32,11 @@ html {
 
 body {
     font-family: $font-primary;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
 }
 
 .container {
