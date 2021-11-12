@@ -110,8 +110,9 @@ li {
     margin: 7rem 25rem 15rem 25rem; }
   .tagline__heading {
     grid-area: heading;
-    align-self: center;
-    color: #FFFFFF; }
+    align-self: end;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem; }
   .tagline__description {
     grid-area: description;
     color: #68411A; }
