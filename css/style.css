@@ -107,7 +107,8 @@ li {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  z-index: 100; }
   .header__logo {
     width: 20rem; }
 
