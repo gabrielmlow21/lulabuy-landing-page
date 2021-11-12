@@ -17,8 +17,9 @@
 
     &__heading {
         grid-area: heading;
-        align-self: center;
+        align-self: end;
         color: $color-white;
+        margin-bottom: 1.5rem;
     }
 
     &__description {
