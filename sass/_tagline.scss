@@ -11,8 +11,28 @@
         grid-template-areas: 
             "heading image"
             "description image";
-        column-gap: 15rem;
-        margin: 7rem 25rem 15rem 25rem;
+        column-gap: 15%;
+        margin: 7rem 20% 15rem 20%;
+
+        @media only screen and (max-width: 1450px) {
+            column-gap: 5%;
+        }
+
+        @media only screen and (max-width: 1250px) {
+            margin: 7rem 10% 15rem 10%;
+        }
+
+        @media only screen and (max-width: 750px) {
+            margin: 7rem 5% 15rem 5%;
+        }
+
+        @media only screen and (max-width: 550px) {
+            grid-template-rows: 10rem auto;
+            grid-template-columns: auto;
+            grid-template-areas: 
+                "heading"
+                "description";
+        }
     }
 
     &__heading {
@@ -20,6 +40,10 @@
         align-self: end;
         color: $color-white;
         margin-bottom: 1.5rem;
+
+        @media only screen and (max-width: 550px) {
+            align-self: center;
+        }
     }
 
     &__description {
@@ -29,6 +53,22 @@
 
     &__image {
         grid-area: image;
-        width: 26rem;
+        width: 20rem;
+
+        @media only screen and (max-width: 1000px) {
+            width: 17rem;
+        }
+
+        @media only screen and (max-width: 700px) {
+            width: 15rem;
+        }
+
+        @media only screen and (max-width: 550px) {
+            grid-column: 1/2;
+            grid-row: 1/span 1;
+            z-index: 10;
+            opacity: 0.2;
+            justify-self: end;
+        }
     }
 }

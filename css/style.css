@@ -23,6 +23,9 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: 10rem; }
+  @media only screen and (max-width: 550px) {
+    .content {
+      margin-top: 5rem; } }
 
 .heading-primary {
   font-size: 5.5rem;
@@ -55,9 +58,12 @@ a {
 .paragraph {
   font-size: 2rem;
   font-weight: 400; }
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1000px) {
     .paragraph {
-      font-size: 1.5rem; } }
+      font-size: 1.9rem; } }
+  @media only screen and (max-width: 800px) {
+    .paragraph {
+      font-size: 1.8rem; } }
 
 .btn {
   border: none;
@@ -122,19 +128,49 @@ li {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto;
     grid-template-areas: "heading image" "description image";
-    column-gap: 15rem;
-    margin: 7rem 25rem 15rem 25rem; }
+    column-gap: 15%;
+    margin: 7rem 20% 15rem 20%; }
+    @media only screen and (max-width: 1450px) {
+      .tagline__container {
+        column-gap: 5%; } }
+    @media only screen and (max-width: 1250px) {
+      .tagline__container {
+        margin: 7rem 10% 15rem 10%; } }
+    @media only screen and (max-width: 750px) {
+      .tagline__container {
+        margin: 7rem 5% 15rem 5%; } }
+    @media only screen and (max-width: 550px) {
+      .tagline__container {
+        grid-template-rows: 10rem auto;
+        grid-template-columns: auto;
+        grid-template-areas: "heading" "description"; } }
   .tagline__heading {
     grid-area: heading;
     align-self: end;
     color: #FFFFFF;
     margin-bottom: 1.5rem; }
+    @media only screen and (max-width: 550px) {
+      .tagline__heading {
+        align-self: center; } }
   .tagline__description {
     grid-area: description;
     color: #68411A; }
   .tagline__image {
     grid-area: image;
-    width: 26rem; }
+    width: 20rem; }
+    @media only screen and (max-width: 1000px) {
+      .tagline__image {
+        width: 17rem; } }
+    @media only screen and (max-width: 700px) {
+      .tagline__image {
+        width: 15rem; } }
+    @media only screen and (max-width: 550px) {
+      .tagline__image {
+        grid-column: 1/2;
+        grid-row: 1/span 1;
+        z-index: 10;
+        opacity: 0.2;
+        justify-self: end; } }
 
 .about-us {
   display: flex;
