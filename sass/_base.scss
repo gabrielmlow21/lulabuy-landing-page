@@ -39,12 +39,13 @@ a {
     text-decoration: inherit; /* no underline */
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
+// .container {
+//     display: flex;
+//     flex-direction: column;
+// }
 
 .content {
+    margin-top: 8rem;
     display: flex;
     flex-direction: column;
     row-gap: 10rem;
