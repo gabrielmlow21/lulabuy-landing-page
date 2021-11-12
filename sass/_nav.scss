@@ -2,8 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 10rem;
+    padding: .5rem 3rem;
     border-bottom: 7px $color-brown solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $color-white;
 
     &__logo {
         width: 20rem;
