@@ -38,9 +38,12 @@
     font-size: 2rem;
     font-weight: $weight-regular;
 
+    @media only screen and (max-width: 1000px) {
+        font-size: 1.9rem;
+    }
     
-    @media only screen and (max-width: 1050px) {
-        font-size: 1.5rem;
+    @media only screen and (max-width: 800px) {
+        font-size: 1.8rem;
     }
 }
 
