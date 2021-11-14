@@ -22,7 +22,7 @@ a {
   margin-top: 8rem;
   display: flex;
   flex-direction: column;
-  row-gap: 10rem; }
+  row-gap: 7rem; }
   @media only screen and (max-width: 550px) {
     .content {
       margin-top: 5rem; } }
@@ -411,17 +411,50 @@ li {
     align-items: center; }
   .contact-us__heading {
     color: #68411A; }
+    @media only screen and (max-width: 650px) {
+      .contact-us__heading {
+        margin-top: 5rem; } }
   .contact-us__content {
     margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center; }
+    @media only screen and (max-width: 650px) {
+      .contact-us__content {
+        flex-direction: column;
+        row-gap: 3rem;
+        margin: 2rem 5rem; } }
     .contact-us__content-left {
       flex-basis: 20%; }
+      @media only screen and (max-width: 1600px) {
+        .contact-us__content-left {
+          flex-basis: 30%; } }
+      @media only screen and (max-width: 1350px) {
+        .contact-us__content-left {
+          flex-basis: 35%; } }
     .contact-us__content-rule {
       margin: 0rem 8rem; }
+      @media only screen and (max-width: 1350px) {
+        .contact-us__content-rule {
+          margin: 0rem 4rem; } }
+      @media only screen and (max-width: 650px) {
+        .contact-us__content-rule {
+          width: 100%;
+          margin: 0rem; } }
     .contact-us__content-right {
       flex-basis: 35%; }
+      @media only screen and (max-width: 1600px) {
+        .contact-us__content-right {
+          flex-basis: 40%; } }
+      @media only screen and (max-width: 1350px) {
+        .contact-us__content-right {
+          flex-basis: 45%; } }
+      @media only screen and (max-width: 1250px) {
+        .contact-us__content-right {
+          flex-basis: 50%; } }
+      @media only screen and (max-width: 1100px) {
+        .contact-us__content-right {
+          flex-basis: 40%; } }
 
 .address__heading {
   color: #68411A; }
@@ -447,6 +480,10 @@ li {
   grid-template-columns: 1fr 1fr;
   row-gap: 3rem;
   column-gap: 3rem; }
+  @media only screen and (max-width: 1100px) {
+    .form {
+      display: flex;
+      flex-direction: column; } }
   .form__label {
     color: #68411A;
     font-size: 2rem;
@@ -467,6 +504,9 @@ li {
     font-size: 1.5rem; }
   .form__submit {
     width: 15rem; }
+    @media only screen and (max-width: 650px) {
+      .form__submit {
+        width: 100%; } }
 
 .footer {
   display: flex;
