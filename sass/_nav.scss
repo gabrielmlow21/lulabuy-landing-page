@@ -10,8 +10,18 @@
     background-color: $color-white;
     z-index: 100;
 
+    @media only screen and (max-width: 600px) {
+        padding: .5rem 1rem;
+    }
+
+    
+
     &__logo {
         width: 20rem;
+
+        @media only screen and (max-width: 900px) {
+            width: 15rem;
+        }
     }
 }
 
@@ -21,4 +31,22 @@
     align-items: center;
     column-gap: 10rem;
     list-style: none;
+
+    @media only screen and (max-width: 1100px) {
+        column-gap: 5rem;
+    }
+
+    @media only screen and (max-width: 900px) {
+        column-gap: 3rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+
+    &__link {
+        @media only screen and (max-width: 900px) {
+            font-size: 1.5rem;
+        }
+    }
 }
