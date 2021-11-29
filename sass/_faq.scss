@@ -1,0 +1,20 @@
+.faq {
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $color-orange;
+        border-radius: 27px;
+        padding: 4rem 0rem;
+        row-gap: 2rem;
+
+        &-primary {
+            color: $color-brown;
+        }
+
+        &-secondary {
+            color: $color-white;
+        }
+    }
+}
