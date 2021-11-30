@@ -1,0 +1,27 @@
+{
+    "Lorem ipsum": {
+        "What does Handout Wizard (HOW) do?": "HOW creates handouts from your PowerPoint presentations in the presentation format.",
+        "Can I create a handout of a custom show?": "Yes, you can create a handout from a custom show, a slide selection, slide rangeor from all the slides.",
+        "My handout has truncated images in PPT 2007. How can I fix it?": "A bug introduced in Microsoft Office 2007 Service Pack 1 causes the images exported to get truncated in content. This bug has been addressed in Office 2007 Service Pack 2."
+    },
+    "Dolor sit amet": {
+        "What is  Custom layout?": "You define the number of slides per row and per column along with the margins and order of slide position to create a handout in the order your want.",
+        "What is a Defined layout?": "A custom layout is limits you to setting the size/order/position of the thumbnails, a layout definition gives you complete control over each slide represented in the handout.",
+        "My handout has truncated images in PPT 2007. How can I fix it?": "A bug introduced in Microsoft Office 2007 Service Pack 1 causes the images exported to get truncated in content. This bug has been addressed in Office 2007 Service Pack 2."
+    },
+    "Consectetur": {
+        "How do I create a LDT?": "Click here for step-by-step instruction to create a LDT.",
+        "Can I create a handout of a custom show?": "Yes, you can create a handout from a custom show, a slide selection, slide rangeor from all the slides.",
+        "My handout has truncated images in PPT 2007. How can I fix it?": "A bug introduced in Microsoft Office 2007 Service Pack 1 causes the images exported to get truncated in content. This bug has been addressed in Office 2007 Service Pack 2."
+    },
+    "Adipiscing elit": {
+        "What is an 'Image Placeholder'?": "An image placeholder is a rectangle autoshape with the text '{Thumbnail}' or '{ThumbnailBW}' in it. HOW maps a thumbnail onto the image placeholder while creating a handout with a LDT.",
+        "Can I create a handout of a custom show?": "Yes, you can create a handout from a custom show, a slide selection, slide rangeor from all the slides.",
+        "My handout has truncated images in PPT 2007. How can I fix it?": "A bug introduced in Microsoft Office 2007 Service Pack 1 causes the images exported to get truncated in content. This bug has been addressed in Office 2007 Service Pack 2."
+    },
+    "Curabitur": {
+        "How many image placeholders can I have on a slide?": "There is no limit. You can have as many as you need.",
+        "Can I create a handout of a custom show?": "Yes, you can create a handout from a custom show, a slide selection, slide rangeor from all the slides.",
+        "My handout has truncated images in PPT 2007. How can I fix it?": "A bug introduced in Microsoft Office 2007 Service Pack 1 causes the images exported to get truncated in content. This bug has been addressed in Office 2007 Service Pack 2."
+    }
+}
