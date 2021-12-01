@@ -2,7 +2,7 @@
 fetch('./faq.json')
     .then(res => res.json())
     .then(data => {
-        const categoriesEl = document.querySelector('.categories');
+        const categoriesEl = document.querySelector('.categories__items');
         // adding categories
         for (var i = 0; i < Object.keys(data).length; i++) {
             var category = Object.keys(data)[i];

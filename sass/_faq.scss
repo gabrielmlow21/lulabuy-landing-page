@@ -17,4 +17,32 @@
             color: $color-white;
         }
     }
+
+    &__content {
+        display: flex;
+        width: 80%;
+        margin: auto;
+
+        .content {
+            &__categories {
+                .categories {
+                    &__heading {
+                        color: $color-brown;
+                    }
+
+                    &__items {
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    &__item {
+                        color: black;
+                        margin-top: 2rem;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
 }

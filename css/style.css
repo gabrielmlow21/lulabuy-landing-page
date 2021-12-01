@@ -433,6 +433,21 @@ li {
   .faq__header-secondary {
     color: #FFFFFF; }
 
+.faq__content {
+  display: flex;
+  width: 80%;
+  margin: auto; }
+  .faq__content .content__categories .categories__heading {
+    color: #68411A; }
+  .faq__content .content__categories .categories__items {
+    list-style: none;
+    display: flex;
+    flex-direction: column; }
+  .faq__content .content__categories .categories__item {
+    color: black;
+    margin-top: 2rem;
+    cursor: pointer; }
+
 .contact-us {
   width: 100%;
   background-image: url("../img/contact-us/bg-wave.svg");
