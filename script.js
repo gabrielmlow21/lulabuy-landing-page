@@ -8,6 +8,7 @@ fetch('./faq.json')
             var category = Object.keys(data)[i];
             var li = document.createElement('li');
             li.appendChild(document.createTextNode(category));
+            li.classList.add("categories__item")
             categoriesEl.appendChild(li);
         }
     });
