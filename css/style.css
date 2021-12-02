@@ -452,6 +452,10 @@ li {
   .faq__content .rule {
     margin-left: 10rem;
     margin-right: 10rem; }
+  .faq__content .question-answer__container {
+    display: none; }
+    .faq__content .question-answer__container-active {
+      display: block; }
 
 .contact-us {
   width: 100%;

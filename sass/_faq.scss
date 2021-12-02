@@ -45,5 +45,14 @@
             margin-left: 10rem;
             margin-right: 10rem;
         }
+        .question-answer {
+            &__container {
+                display: none;
+
+                &-active {
+                    display: block;
+                }
+            }
+        }
     }
 }
