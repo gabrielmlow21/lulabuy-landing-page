@@ -435,18 +435,23 @@ li {
 
 .faq__content {
   display: flex;
-  width: 80%;
-  margin: auto; }
-  .faq__content .content__categories .categories__heading {
+  margin: 5rem 10%; }
+  .faq__content .categories__heading {
     color: #68411A; }
-  .faq__content .content__categories .categories__items {
+  .faq__content .categories__container {
     list-style: none;
     display: flex;
     flex-direction: column; }
-  .faq__content .content__categories .categories__item {
+  .faq__content .categories__item {
     color: black;
     margin-top: 2rem;
-    cursor: pointer; }
+    cursor: pointer;
+    font-weight: 400; }
+    .faq__content .categories__item-active {
+      font-weight: 900; }
+  .faq__content .rule {
+    margin-left: 10rem;
+    margin-right: 10rem; }
 
 .contact-us {
   width: 100%;

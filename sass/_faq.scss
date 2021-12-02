@@ -20,29 +20,30 @@
 
     &__content {
         display: flex;
-        width: 80%;
-        margin: auto;
+        margin: 5rem 10%;
+        .categories {
+            &__heading {
+                color: $color-brown;
+            }
+            &__container {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+            }
+            &__item {
+                color: black;
+                margin-top: 2rem;
+                cursor: pointer;
+                font-weight: $weight-regular;
 
-        .content {
-            &__categories {
-                .categories {
-                    &__heading {
-                        color: $color-brown;
-                    }
-
-                    &__items {
-                        list-style: none;
-                        display: flex;
-                        flex-direction: column;
-                    }
-
-                    &__item {
-                        color: black;
-                        margin-top: 2rem;
-                        cursor: pointer;
-                    }
+                &-active {
+                    font-weight: $weight-black;
                 }
             }
+        }
+        .rule {
+            margin-left: 10rem;
+            margin-right: 10rem;
         }
     }
 }
