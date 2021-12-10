@@ -499,7 +499,8 @@ li {
     display: block;
     line-height: 0;
     overflow: hidden;
-    transition: line-height .5s ease; }
+    transition: line-height .5s ease;
+    font-size: 1.75rem; }
     .faq__content .question-answer__answer-active {
       line-height: normal;
       transition: line-height .5s ease;

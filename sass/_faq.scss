@@ -93,8 +93,6 @@
             &__expand {
                 background-color: $color-orange;
                 border: none;
-                // width: 2rem;
-                // width: 3rem;
                 padding: 0rem .5rem;
                 font-size: 2rem;
                 font-weight: $weight-bold;
@@ -107,6 +105,7 @@
                 line-height: 0;
                 overflow: hidden;
                 transition: line-height .5s ease;
+                font-size: 1.75rem;
 
                 &-active {
                     line-height: normal;
