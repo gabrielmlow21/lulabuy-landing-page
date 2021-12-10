@@ -18,6 +18,31 @@
         }
     }
 
+    &__input {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 16px;
+        width: 50%;
+        min-height: 44px;
+        border: unset;
+        border-radius: 4px;
+        outline-color: rgb(84, 105, 212 / 0.5);
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+        transition: transform 1s, width .3s;
+
+        &:focus {
+            width: 55%;
+            outline: none;
+        }
+    }
+
     &__content {
         display: flex;
         margin: 5rem 10%;
@@ -51,6 +76,42 @@
 
                 &-active {
                     display: block;
+                }
+            }
+            &__question {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+                
+                p {
+                    font-weight: $weight-bold;
+                    color: $color-brown;
+                    margin-left: 5px;
+                }
+            }
+
+            &__expand {
+                background-color: $color-orange;
+                border: none;
+                // width: 2rem;
+                // width: 3rem;
+                padding: 0rem .5rem;
+                font-size: 2rem;
+                font-weight: $weight-bold;
+                color: $color-white;
+                cursor: pointer;
+            }
+
+            &__answer {
+                display: block;
+                line-height: 0;
+                overflow: hidden;
+                transition: line-height .5s ease;
+
+                &-active {
+                    line-height: normal;
+                    transition: line-height .5s ease;
+                    margin-bottom: 2rem;
                 }
             }
         }
