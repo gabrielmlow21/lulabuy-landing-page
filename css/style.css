@@ -482,7 +482,7 @@ li {
   .faq__content .question-answer__question {
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px; }
+    margin-bottom: 15px; }
     .faq__content .question-answer__question p {
       font-weight: 700;
       color: #68411A;
@@ -499,12 +499,15 @@ li {
     display: block;
     line-height: 0;
     overflow: hidden;
-    transition: line-height .5s ease;
-    font-size: 1.75rem; }
+    transition: all .5s;
+    font-size: 1.75rem;
+    color: transparent; }
     .faq__content .question-answer__answer-active {
       line-height: normal;
-      transition: line-height .5s ease;
-      margin-bottom: 2rem; }
+      transition: all .5s;
+      margin-bottom: 2rem;
+      overflow: visible;
+      color: black; }
 
 .contact-us {
   width: 100%;
